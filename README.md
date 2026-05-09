@@ -135,6 +135,46 @@ Common edits you might want:
 
 ---
 
+## Brand Assets in This Folder
+
+**Logo files (all in repo root):**
+- `logo-icon.png` — Lion + skyline only, navy on transparent. Used in nav.
+- `logo-icon-cream.png` — Same icon in cream color. Used in footer (on dark navy bg).
+- `logo-icon.svg` — True vector version of the icon (for print, swag, scaling to any size).
+- `logo-full.png` — Complete logo with "LEON HOSPITALITY" wordmark, transparent bg.
+- `logo-full.svg` — Vector version of the complete logo.
+- `logo-transparent.png` — Higher-res complete logo, transparent bg.
+
+For the website, only `logo-icon.png` and `logo-icon-cream.png` are referenced. The others are bundled for your business cards, email signatures, social media, swag, etc.
+
+**Photos in `img/` folder:**
+All 14 photos you provided are bundled. 12 are used on the site, 2 held back as alternates.
+
+| Photo | Used On |
+|-------|---------|
+| Pic_5.jpg | Home page Hero A (Apartment Operators) |
+| Pic_10.jpg | Home page Hero B (Landlords) |
+| Pic1.jpg | What We Do "Introducing Leon" |
+| Pic_2.jpg | Apartment Project 01 |
+| Pic_3.jpg | Apartment Project 02 |
+| Pic_6.jpg | Apartment Project 03 |
+| Pic_4.jpg | Apartment Project 04 |
+| Pic_7.jpg | Apartment Project 05 |
+| Pic_11.jpg | House Project 01 |
+| Pic_12.jpg | House Project 02 |
+| Pic_14.jpg | House Project 03 |
+| Pic_9.jpg | House Project 04 |
+| Pic_8.jpg | (Held — rooftop deck shot, available for future use) |
+| Pic_13_NYC.jpg | (Held — penthouse view, available for future use) |
+
+**Headshots (repo root):**
+- `headshot.jpg` — Standing pose, used on About page.
+- `headshot-seated.jpg` — Bonus second pose, available for swap or LinkedIn.
+
+To swap photos in/out: edit the relevant HTML file, find the `img/Pic_X.jpg` reference, change to a different filename. Commit. Vercel auto-redeploys.
+
+---
+
 ## Logo Swap (When You're Ready)
 
 Right now, the site uses a clean code-drawn skyline mark as the logo. When you have your final logo as a proper file, here's how to swap it in:
