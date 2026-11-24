@@ -18,7 +18,7 @@
 7. **Parking.** The Airbnb listings claim an "assigned parking space" / "free parking space with EV charging." Building management's rule is first come, first served, one hang tag per unit, nightly towing patrol. These drafts use the building rule only. Do not repeat the assigned-space claim.
 8. **Rooftop lounge / BBQ.** The Airbnb listings claim rooftop lounge and BBQ access. Rooftop/BBQ confirmation from management was still awaited as of Nov 7, and the rooftop pool is not open. These drafts say the pool is not open and make no rooftop claim.
 9. **Fitness center at "sister building, Wesley Fillmore."** The Driftwood Airbnb listing mentions gym access at Wesley Fillmore (about a 4-minute drive). This was not in the verified audit facts and fob programming for Fillmore was still awaited. These drafts do not claim gym access.
-10. **Elevator.** Out of service since Nov 18 with no return date. These drafts say "stairs to the 3rd floor until further notice" (Coastal Blue, Driftwood) and "stairs to the 4th floor" for Miami Modern, which is on the top floor. Someone must update all four pages the day it returns.
+10. **Elevator.** Out of service since Nov 18 with no return date. These drafts say "stairs to the 3rd floor until further notice" (Coastal Blue, Driftwood) and "stairs to the 4th floor" for Miami Modern and Stone and Steel. Someone must update all property pages the day it returns.
 11. **Pet fee.** $30/day for 1 dog up to 35 lbs is per the Airbnb listings. The $1,000 smoking/partying fine mentioned in the Driftwood Airbnb listing text was deliberately left off the website; decide whether it belongs on the site or only in the booking flow.
 
 ## Decisions for Cisco
@@ -44,6 +44,21 @@ Page built from the 21-photo "apt 401" Drive folder (owned by adnancharamand@gma
 25. **Reviews.** No Miami Modern reviews are on file, so the page has no Reviews section. Add testimonials once the listing has them. The Stays hub trust block (7 five-star reviews) covers Coastal Blue and Driftwood only.
 26. **Beach gear and workspace.** Not claimed for 401. No desk is visible in the photos, so no workspace is listed; beach gear (chairs, cooler, towels, sunscreen) is not confirmed for this unit.
 27. **Stays hub wording.** The hub's Good to Know house-rules line was reworded to "Pet policy and quiet hours are listed on each unit's page" so the Coastal Blue/Driftwood dog and quiet-hours claims do not extend to 401. The hub elevator line now names the 4th floor for Miami Modern. The hub trust count was corrected 6 to 7 (verified: 7 reviews at 5.0 on the host profile).
+
+## Stone and Steel #402 (new page, Nov 23, 2026)
+
+Page built from the 22-photo "apt 402" Drive folder (owned by adnancharamand@gmail.com). Originals in `photos-originals/apt402/`; 6 compressed to JPEG, all 160-184 KB, in `photos/` (stone-and-steel-402-living-room, balcony [real balcony shot], bedroom, kitchen, bathroom, workspace [extra, not in the page grid]). Listing name RESOLVED Nov 23 by Cisco: **Stone and Steel**. Page uses only facts verified from the photos, the listing name, and LHG-wide rules. The following are NOT on the page and need Cisco's answers before they go on:
+
+28. **Airbnb rooms URL.** The listing name is confirmed, but no rooms URL is on file. The booking button is a disabled "Coming Soon" placeholder. Do not link until the public URL is confirmed.
+29. **Bed configuration.** No bed count or sleeps number is stated anywhere for 402 (page says 1 bedroom, 1 bathroom, 4th floor only). Bedroom bed size unknown; whether the living-room sofa is a sofa bed is unknown.
+30. **Bathroom count.** Page says 1 bathroom based on the photo set (one bathroom shown: vanity, toilet, shower). Confirm against the listing.
+31. **Pet policy.** Not stated for 402. Confirm fee and size limit; Coastal Blue and Driftwood are 1 dog up to 35 lbs at $30/day.
+32. **Quiet hours.** Not stated for 402. Coastal Blue and Driftwood are 11 PM-7 AM.
+33. **Beach gear.** Not claimed for 402. Not confirmed for this unit.
+34. **Reviews.** No Stone and Steel reviews are on file, so the page has no Reviews section. Add testimonials once the listing has them. The Stays hub trust block (7 five-star reviews) covers Coastal Blue and Driftwood only.
+35. **Vrbo listing.** None exists for 402 yet. Do not add a Vrbo button until a listing is created, published, and its public URL is confirmed.
+36. **Top floor.** The page says "4th floor" only, not top floor. Whether the building has only 4 floors is unverified; confirm before calling 402 top floor (401 is confirmed top floor by its listing title).
+37. **Stays hub wording.** The hub elevator line now names the 4th floor for both Miami Modern and Stone and Steel, noting Miami Modern is on the top floor. The hub count went from three homes to four.
 
 ## Resolved during drafting (for the record)
 
