@@ -1,0 +1,84 @@
+# Gaps: facts to confirm before anything ships
+**Date:** November 23, 2026
+**Rule:** nothing listed here may be published as fact until Cisco confirms it. Items marked TODO in the HTML drafts map to this list.
+
+## Blocking (must resolve before the pages go live)
+
+1. **Photos.** RESOLVED Nov 23: Cisco shared two Drive folders with the updated enhanced photos (17 per unit). Folder 1 = Coastal Blue #301 (navy walls, queen bed); Folder 2 = Driftwood #302 (warm caramel tones, king bed, balcony shot named "Apt 302"). Originals downloaded to `photos-originals/folder1` and `folder2`. 11 photos compressed to JPEG, all 158-184 KB at q82-85, in `photos/`: Coastal Blue living-room, balcony (living-room shot showing the balcony sliders; no standalone balcony photo was in the set), bedroom, kitchen, bathroom; Driftwood living-room, balcony (real balcony shot), bedroom, workspace, bathroom, kitchen (extra, not in the page grid). The `photos/` folder holds only the compressed files that ship to the repo.
+2. **Vrbo URLs.**
+   - Coastal Blue Vrbo property 139375451 is still a DRAFT. Its button is a disabled "Coming Soon" placeholder. Do not link it until the listing is published and its public URL is confirmed.
+   - Driftwood has no Vrbo listing yet. Its button is also a disabled placeholder. Do not add a Vrbo button until a listing is created, published, and its public URL is confirmed.
+3. **Nightly rates.** RESOLVED Nov 23: no pricing on the site, per Cisco. No price appears anywhere; priceRange removed from all JSON-LD.
+4. **Bathroom counts.** RESOLVED Nov 23: 1 bathroom each for #301 and #302 (Coastal Blue verified 1 bath on Airbnb; the five units are four 1BR + one 2BR). Unit 404 is a 2BR/2BA (Cisco, Nov 23) — record for its future page.
+5. **Driftwood amenities.** RESOLVED Nov 23: Cisco confirmed all amenities are in the space. Full kitchen, washer/dryer, Smart TVs, high-speed Wi-Fi, and beach gear added to the Driftwood page and its JSON-LD.
+6. **Reviews as testimonials.** Cisco, Nov 23: add reviews as testimonials. The quotes on both pages (Chyaurah, Ryan, Mi'Kaela) are presented as guest testimonials. Count verified: 7 reviews at 5.0 on the Airbnb host profile as of Nov 23, 2026 (Coastal Blue listing displays 3: Mayra, Chyaurah, Jose Miguel). Drafts now say seven.
+
+## Accuracy flags (do NOT put these on the site until verified)
+
+7. **Parking.** The Airbnb listings claim an "assigned parking space" / "free parking space with EV charging." Building management's rule is first come, first served, one hang tag per unit, nightly towing patrol. These drafts use the building rule only. Do not repeat the assigned-space claim.
+8. **Rooftop lounge / BBQ.** The Airbnb listings claim rooftop lounge and BBQ access. Rooftop/BBQ confirmation from management was still awaited as of Nov 7, and the rooftop pool is not open. These drafts say the pool is not open and make no rooftop claim.
+9. **Fitness center at "sister building, Wesley Fillmore."** The Driftwood Airbnb listing mentions gym access at Wesley Fillmore (about a 4-minute drive). This was not in the verified audit facts and fob programming for Fillmore was still awaited. These drafts do not claim gym access.
+10. **Elevator.** Out of service since Nov 18 with no return date. These drafts say "stairs to the 3rd floor until further notice" (Coastal Blue, Driftwood) and "stairs to the 4th floor" for Miami Modern and Stone and Steel. Someone must update all property pages the day it returns.
+11. **Pet fee.** $30/day for 1 dog up to 35 lbs is per the Airbnb listings. The $1,000 smoking/partying fine mentioned in the Driftwood Airbnb listing text was deliberately left off the website; decide whether it belongs on the site or only in the booking flow.
+
+## Decisions for Cisco
+
+12. **Address display.** RESOLVED Nov 23: neighborhood only for now, per Cisco. Exact address removed from both property pages and all JSON-LD; pages now say "Downtown Hollywood, near Young Circle."
+13. **Direct booking.** Hospitable Direct widget (Premium 7% hands-off vs Basic 1% + Stripe) is not included in these drafts. Decide Premium vs Basic vs OTA-only before adding a "Book Direct" button.
+14. **Geo coordinates.** The JSON-LD uses approximate coordinates for 2037 Jackson St (26.0114, -80.1495). Confirm or replace with the exact pin before publishing.
+15. **Google Business Profile, Search Console, Analytics.** None confirmed. The SEO pack assumes they will be set up; the sitemap needs submitting to Search Console after deploy.
+16. **Favicon.** No favicon file exists on the site. Export the Leon logo as favicon.ico (plus a 180×180 apple-touch-icon) and reference it on every page.
+17. **Social profiles.** No business Instagram/Facebook confirmed. The JSON-LD `sameAs` array is empty on purpose; add profile URLs if they exist.
+18. **"From" pricing and taxes.** If a price is shown later, confirm whether it is the Airbnb nightly rate, whether cleaning fees and taxes are extra, and whether Vrbo pricing matches (Vrbo commission changed Oct 29, 2026).
+
+## Miami Modern #401 (new page, Nov 23, 2026)
+
+Page built from the 21-photo "apt 401" Drive folder (owned by adnancharamand@gmail.com). Originals in `photos-originals/apt401/`; 6 compressed to JPEG, all 172-184 KB, in `photos/` (miami-modern-401-living-room, balcony [living-room shot showing the balcony sliders; no standalone balcony photo in the set], bedroom, kitchen, bathroom, coffee-bar [extra, not in the page grid]). Page uses only facts verified from the photos, the Airbnb unlisting email, and LHG-wide rules. The following are NOT on the page and need Cisco's answers before they go on:
+
+19. **Bed configuration.** RESOLVED Nov 24 by Cisco: queen bed in the bedroom, sofa bed in the living room. Page updated to say queen bed + sofa bed. Sleeps 4, matching the page's max 4 guests.
+20. **Bathroom count.** Page says 1 bathroom based on the photo set (one bathroom shown: double vanity, shower, toilet). Confirm against the listing.
+21. **Pet policy.** Not stated for 401 (no dog tag on the Stays card, no pet line in House Rules). Confirm fee and size limit; Coastal Blue and Driftwood are 1 dog up to 35 lbs at $30/day.
+22. **Quiet hours.** Not stated for 401. Coastal Blue and Driftwood are 11 PM-7 AM.
+23. **Airbnb link.** The Miami Modern Airbnb listing is currently UNLISTED (Airbnb email Nov 23, 2026) and no rooms URL is on file. Both booking buttons on the page are disabled "Coming Soon" placeholders. Do not link until the listing is relisted and its public URL is confirmed. Also still open: did Cisco unlist it himself?
+24. **Vrbo listing.** None exists for 401 yet. Do not add a Vrbo button until a listing is created, published, and its public URL is confirmed.
+25. **Reviews.** No Miami Modern reviews are on file, so the page has no Reviews section. Add testimonials once the listing has them. The Stays hub trust block (7 five-star reviews) covers Coastal Blue and Driftwood only.
+26. **Beach gear and workspace.** Not claimed for 401. No desk is visible in the photos, so no workspace is listed; beach gear (chairs, cooler, towels, sunscreen) is not confirmed for this unit.
+27. **Stays hub wording.** The hub's Good to Know house-rules line was reworded to "Pet policy and quiet hours are listed on each unit's page" so the Coastal Blue/Driftwood dog and quiet-hours claims do not extend to 401. The hub elevator line now names the 4th floor for Miami Modern. The hub trust count was corrected 6 to 7 (verified: 7 reviews at 5.0 on the host profile).
+
+## Stone and Steel #402 (new page, Nov 23, 2026)
+
+Page built from the 22-photo "apt 402" Drive folder (owned by adnancharamand@gmail.com). Originals in `photos-originals/apt402/`; 6 compressed to JPEG, all 160-184 KB, in `photos/` (stone-and-steel-402-living-room, balcony [real balcony shot], bedroom, kitchen, bathroom, workspace [extra, not in the page grid]). Listing name RESOLVED Nov 23 by Cisco: **Stone and Steel**. Page uses only facts verified from the photos, the listing name, and LHG-wide rules. The following are NOT on the page and need Cisco's answers before they go on:
+
+28. **Airbnb rooms URL.** The listing name is confirmed, but no rooms URL is on file. The booking button is a disabled "Coming Soon" placeholder. Do not link until the public URL is confirmed.
+29. **Bed configuration.** RESOLVED Nov 24 by Cisco: king bed in the bedroom, no sofa bed. Page updated. Note: with one king bed the unit sleeps 2; max guests changed to 2 on Cisco's say-so Nov 24 (page updated; set on Airbnb Nov 24, 3:07 PM, verified).
+30. **Bathroom count.** Page says 1 bathroom based on the photo set (one bathroom shown: vanity, toilet, shower). Confirm against the listing.
+31. **Pet policy.** Not stated for 402. Confirm fee and size limit; Coastal Blue and Driftwood are 1 dog up to 35 lbs at $30/day.
+32. **Quiet hours.** Not stated for 402. Coastal Blue and Driftwood are 11 PM-7 AM.
+33. **Beach gear.** Not claimed for 402. Not confirmed for this unit.
+34. **Reviews.** No Stone and Steel reviews are on file, so the page has no Reviews section. Add testimonials once the listing has them. The Stays hub trust block (7 five-star reviews) covers Coastal Blue and Driftwood only.
+35. **Vrbo listing.** None exists for 402 yet. Do not add a Vrbo button until a listing is created, published, and its public URL is confirmed.
+36. **Top floor.** The page says "4th floor" only, not top floor. Whether the building has only 4 floors is unverified; confirm before calling 402 top floor (401 is confirmed top floor by its listing title).
+37. **Stays hub wording.** The hub elevator line now names the 4th floor for both Miami Modern and Stone and Steel, noting Miami Modern is on the top floor. The hub count went from three homes to four.
+
+## Dune and Drift #404 (new page, Nov 24, 2026)
+
+Page built from the 20-photo "apt 404" Drive folder (ID 1KmBRxvniAc9QIp1yL9Y-zk1EMZ-l14oT, owned by adnancharamand@gmail.com, modified Nov 24, 9:32 AM). Originals in `photos-originals/apt404/` (~41 MB); 6 compressed to JPEG, all 170-184 KB, in `photos/` (dune-and-drift-404-living-room, balcony [night shot with string lights], bedroom, kitchen, bathroom, workspace [extra, not in the page grid]); 14 extras compressed, all under 200 KB, in `photos-extra/`. All 6 picks hash-matched to their originals at distance 0. Page uses only facts verified from the photos, the Airbnb draft copy, and LHG-wide rules. The following are NOT on the page and need Cisco's answers before they go on:
+
+38. **Airbnb rooms URL.** The Dune and Drift Airbnb listing is an unlisted draft (ID 1825869028582287491). The 6 mock placeholder photos were swapped for the real 404 photos Nov 24, 3:43 PM (20 photos total now on the listing). No rooms URL is on file. The booking button is a disabled "Coming Soon" placeholder. Do not link until the listing is published and its public URL is confirmed.
+39. **Bed configuration.** RESOLVED Nov 24 by Cisco: one queen bed, one king bed, and a sofa bed. King bedroom RESOLVED Nov 24: the bedroom with the ocean painting above the bed; the bedroom with the wall-mounted TV is the queen. Page updated. Sleeping Arrangements set on Airbnb Nov 24, 3:43 PM (Bedroom 1 king, Bedroom 2 queen, living room sofa bed), verified after reload; all 20 real photos now on the listing, living-room cover. Max guests raised to 6 on Cisco's say-so Nov 24 (page updated; set on Airbnb Nov 24, 3:07 PM, verified).
+40. **Bathroom count.** Page says 2 bathrooms, confirmed by Cisco Nov 23 (2BR/2BA) and by the photos: two distinct bathrooms are visible (one with white tile and a dark bath mat, one with black fixtures and a dark hex-tile shower floor).
+41. **Pet policy.** Stated on the page (1 dog up to 35 lbs, $30/day) per Cisco's Nov 23 decision matching the other units. Confirmed, not open.
+42. **Quiet hours.** Stated on the page (11 PM-7 AM) per Cisco's Nov 23 decision matching the other units. Confirmed, not open.
+43. **Beach gear.** Not claimed for 404. Not confirmed for this unit; no beach gear is visible in the photos.
+44. **Reviews.** No Dune and Drift reviews are on file, so the page has no Reviews section. Add testimonials once the listing has them. The Stays hub trust block (7 five-star reviews) covers Coastal Blue and Driftwood only.
+45. **Vrbo listing.** None exists for 404 yet. Do not add a Vrbo button until a listing is created, published, and its public URL is confirmed.
+46. **Top floor / floor.** The page says "4th floor" only, not top floor. Whether the building has only 4 floors is unverified; confirm before calling 404 top floor (401 is confirmed top floor by its listing title). The 4th-floor claim itself is per unit numbering and still to confirm.
+47. **Workspace.** The page claims a dedicated workspace; the photos show a desk with an office chair beside the kitchen island (DSC04967). Confirm the desk setup is a permanent workspace, not staging.
+48. **Stays hub wording.** The hub count went from four homes to five; hero and meta copy now say five retreats, four one-bedroom and one two-bedroom. The hub elevator line now names the 4th floor for Miami Modern, Stone and Steel, and Dune and Drift, noting Miami Modern is on the top floor. The hub "both units" line was fixed to "every unit". The index homepage JSON-LD was also updated from two stays to five (it had never been updated for 401/402).
+
+## Resolved during drafting (for the record)
+
+- **Driftwood Airbnb URL found:** https://www.airbnb.com/rooms/1798640427233892545 (verified via public search result, Nov 23, 2026; room ID confirmed in the result URL). Its listing text also verified: king bed + sofa bed, sleeps 4, workspace, self check-in, weekly/monthly discounts, mid-stay cleanings, 4 PM in / 10 AM out, 1 dog up to 35 lbs at $30/day, quiet hours 11 PM–7 AM.
+- **Coastal Blue Airbnb URL confirmed live:** https://www.airbnb.com/rooms/1807359543212911552.
+- **Site structure matched from the live homepage source:** Tailwind Play CDN + inline config, Fraunces/DM Sans fonts, navy #0A2342 / navy-deep #051530 / cream #F5F2E8 / stone #E8E4D8, same header/footer/nav, `script.js` + `styles.css` referenced. "Stays" added to nav and footer in the drafts only.
+- **GitHub repo:** per the parent agent's records, the repo is Francisco8922/LeonHG-Site. These drafts were NOT committed anywhere; they live only in `~/workspace/leonhg-website-drafts/` for Cisco's review.

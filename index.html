@@ -32,6 +32,44 @@
     }
   </script>
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@id": "https://leonhg.com/#business",
+    "@type": "LodgingBusiness",
+    "name": "Leon Hospitality Group",
+    "alternateName": "Leon Hospitality",
+    "url": "https://leonhg.com/",
+    "description": "Leon Hospitality Group offers professionally managed vacation rentals in Downtown Hollywood, FL: Coastal Blue #301, Driftwood #302, Miami Modern #401, Stone and Steel #402, and Dune and Drift #404, five stays, four one-bedroom and one two-bedroom, near Hollywood Beach, the Boardwalk, and Port Everglades cruise port.",
+    "email": "Francisco@leonhg.com",
+    "telephone": "+1-917-684-0026",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hollywood",
+      "addressRegion": "FL",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.0114,
+      "longitude": -80.1495
+    },
+    "checkinTime": "16:00",
+    "checkoutTime": "10:00",
+    "petsAllowed": true,
+    "amenityFeature": [
+      {"@type": "LocationFeatureSpecification", "name": "Self check-in"},
+      {"@type": "LocationFeatureSpecification", "name": "High-speed Wi-Fi"},
+      {"@type": "LocationFeatureSpecification", "name": "Professionally cleaned before every arrival"}
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Francisco Peralta",
+      "alternateName": "Cisco Peralta",
+      "jobTitle": "Founder & General Manager"
+    }
+  }
+  </script>
 </head>
 <body class="bg-cream text-navy">
 
@@ -41,6 +79,7 @@
       <a href="index.html" class="block"><img src="logo-icon.png" alt="Leon Hospitality" class="h-12 w-auto"></a>
       <div class="hidden lg:flex items-center gap-8">
         <a href="index.html" class="text-sm tracking-wide text-navy font-medium">Home</a>
+        <a href="stays.html" class="text-sm tracking-wide text-navy/65 hover:text-navy transition-colors">Stays</a>
         <a href="what-we-do.html" class="text-sm tracking-wide text-navy/65 hover:text-navy transition-colors">What We Do</a>
         <a href="faqs.html" class="text-sm tracking-wide text-navy/65 hover:text-navy transition-colors">FAQs</a>
         <a href="about.html" class="text-sm tracking-wide text-navy/65 hover:text-navy transition-colors">About</a>
@@ -56,6 +95,7 @@
     <div id="mobile-menu" class="lg:hidden hidden bg-cream border-t border-navy/10">
       <div class="px-6 py-6 flex flex-col gap-1">
         <a href="index.html" class="py-3 text-base text-navy font-medium">Home</a>
+        <a href="stays.html" class="py-3 text-base text-navy/65">Stays</a>
         <a href="what-we-do.html" class="py-3 text-base text-navy/65">What We Do</a>
         <a href="faqs.html" class="py-3 text-base text-navy/65">FAQs</a>
         <a href="about.html" class="py-3 text-base text-navy/65">About</a>
@@ -109,6 +149,85 @@
             Learn How
             <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
           </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- STAY WITH US -->
+    <section class="bg-stone py-20 lg:py-28 pinstripe">
+      <div class="max-w-7xl mx-auto px-6 lg:px-12">
+        <div class="max-w-2xl mb-12">
+          <div class="text-xs tracking-widest-custom uppercase text-navy/60 mb-4 font-medium">Stays in Hollywood, Florida</div>
+          <h2 class="font-display text-4xl lg:text-6xl leading-[1] tracking-tight mb-6">Stay with us in Downtown Hollywood.</h2>
+          <p class="text-lg text-navy/75 leading-relaxed">Five retreats, four one-bedroom and one two-bedroom, professionally managed and cleaned before every arrival. Walk to dinner and live music on Hollywood Blvd, drive ten minutes to the beach and the Boardwalk, and be at the cruise port or the airport in about fifteen.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6 lg:gap-8">
+          <a href="coastal-blue.html" class="group block bg-cream border border-navy/5 overflow-hidden">
+            <div class="relative overflow-hidden aspect-[16/10] bg-navy/5">
+              <img src="photos/coastal-blue-living-room.jpg" alt="Coastal Blue living room, unit 301 in Downtown Hollywood, FL" class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500" loading="lazy">
+            </div>
+            <div class="p-8 lg:p-10">
+              <h3 class="font-display text-2xl leading-tight mb-3">Coastal Blue</h3>
+              <p class="text-navy/70 leading-relaxed mb-6">A navy-and-cream one-bedroom with a private balcony, queen bed, and a dedicated workspace. Sleeps 4, dog friendly.</p>
+              <span class="inline-flex items-center gap-3 text-navy border-b border-navy pb-1 tracking-wide group-hover:gap-5 transition-all">See Coastal Blue
+                <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </span>
+            </div>
+          </a>
+          <a href="driftwood.html" class="group block bg-cream border border-navy/5 overflow-hidden">
+            <div class="relative overflow-hidden aspect-[16/10] bg-navy/5">
+              <img src="photos/driftwood-living-room.jpg" alt="Driftwood living room, unit 302 in Downtown Hollywood, FL" class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500" loading="lazy">
+            </div>
+            <div class="p-8 lg:p-10">
+              <h3 class="font-display text-2xl leading-tight mb-3">Driftwood</h3>
+              <p class="text-navy/70 leading-relaxed mb-6">Warm caramel tones, a king bed, and a private balcony made for slow mornings. Sleeps 4, dog friendly.</p>
+              <span class="inline-flex items-center gap-3 text-navy border-b border-navy pb-1 tracking-wide group-hover:gap-5 transition-all">See Driftwood
+                <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </span>
+            </div>
+          </a>
+          <a href="miami-modern.html" class="group block bg-cream border border-navy/5 overflow-hidden">
+            <div class="relative overflow-hidden aspect-[16/10] bg-navy/5">
+              <img src="photos/miami-modern-401-living-room.jpg" alt="Miami Modern living room, unit 401 in Downtown Hollywood, FL" class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500" loading="lazy">
+            </div>
+            <div class="p-8 lg:p-10">
+              <h3 class="font-display text-2xl leading-tight mb-3">Miami Modern</h3>
+              <p class="text-navy/70 leading-relaxed mb-6">Bold top-floor one-bedroom in graphic black-and-white with a burnt-orange sofa and a coffee bar. Two beds, booking opens soon.</p>
+              <span class="inline-flex items-center gap-3 text-navy border-b border-navy pb-1 tracking-wide group-hover:gap-5 transition-all">See Miami Modern
+                <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </span>
+            </div>
+          </a>
+          <a href="stone-and-steel.html" class="group block bg-cream border border-navy/5 overflow-hidden">
+            <div class="relative overflow-hidden aspect-[16/10] bg-navy/5">
+              <img src="photos/stone-and-steel-402-living-room.jpg" alt="Stone and Steel living room, unit 402 in Downtown Hollywood, FL" class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500" loading="lazy">
+            </div>
+            <div class="p-8 lg:p-10">
+              <h3 class="font-display text-2xl leading-tight mb-3">Stone and Steel</h3>
+              <p class="text-navy/70 leading-relaxed mb-6">Warm, calm one-bedroom in soft taupe and natural wood, with a balcony that has a real view and a dedicated workspace. Booking opens soon.</p>
+              <span class="inline-flex items-center gap-3 text-navy border-b border-navy pb-1 tracking-wide group-hover:gap-5 transition-all">See Stone and Steel
+                <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </span>
+            </div>
+          </a>
+          <a href="dune-and-drift.html" class="group block bg-cream border border-navy/5 overflow-hidden">
+            <div class="relative overflow-hidden aspect-[16/10] bg-navy/5">
+              <img src="photos/dune-and-drift-404-living-room.jpg" alt="Dune and Drift living room, unit 404 in Downtown Hollywood, FL" class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500" loading="lazy">
+            </div>
+            <div class="p-8 lg:p-10">
+              <h3 class="font-display text-2xl leading-tight mb-3">Dune and Drift</h3>
+              <p class="text-navy/70 leading-relaxed mb-6">The only two-bedroom in the building, in soft coastal neutrals and light wood, with two full bathrooms and a private balcony. Booking opens soon.</p>
+              <span class="inline-flex items-center gap-3 text-navy border-b border-navy pb-1 tracking-wide group-hover:gap-5 transition-all">See Dune and Drift
+                <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </span>
+            </div>
+          </a>
+        </div>
+        <div class="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <a href="stays.html" class="inline-flex items-center gap-3 bg-navy text-cream px-8 py-4 tracking-wide hover:bg-navy-deep transition-colors font-medium">See Our Stays
+            <svg class="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+          <span class="text-sm text-navy/60">Seven 5-star reviews on Airbnb &middot; Sleeps 4 &middot; Self check-in</span>
         </div>
       </div>
     </section>
@@ -206,6 +325,7 @@
           <div class="text-xs tracking-widest-custom uppercase text-cream/60 mb-5">Navigate</div>
           <div class="flex flex-col gap-3">
             <a href="index.html" class="text-cream/70 hover:text-cream text-sm transition-colors">Home</a>
+            <a href="stays.html" class="text-cream/70 hover:text-cream text-sm transition-colors">Stays</a>
             <a href="what-we-do.html" class="text-cream/70 hover:text-cream text-sm transition-colors">What We Do</a>
             <a href="faqs.html" class="text-cream/70 hover:text-cream text-sm transition-colors">FAQs</a>
             <a href="about.html" class="text-cream/70 hover:text-cream text-sm transition-colors">About</a>
